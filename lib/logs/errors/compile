@@ -1,0 +1,6 @@
+Thu Dec  3 03:35:39 2020: DRIVER :/std/monster_race.c, 17: syntax error
+Thu Dec  3 03:42:58 2020: DRIVER :/std/room.c, 217: multiple declaration of function set_nokill
+Thu Dec  3 03:42:58 2020: DRIVER :/std/room.c, 217: multiple declaration of function set_nokill
+Thu Dec  3 03:42:59 2020: DRIVER :/std/room.c, 217: multiple declaration of function set_nokill
+Thu Dec  3 03:42:59 2020: DRIVER :/std/room.c, 217: multiple declaration of function set_nokill
+Thu Dec  3 03:42:59 2020: DRIVER :/std/room.c, 217: multiple declaration of function set_nokill

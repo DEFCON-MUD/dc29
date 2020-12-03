@@ -88,11 +88,11 @@ static void telnet_will(int option) {
       /* Enable MXP Escape on IAC WILL MXP */
       /* leave MXP check in to prevent loop */
     if (option == TELOPT_MXP[0] && mxp != 1) {
-        //EVILMOG-TODO DISABLED MXP
-        //telnet::send(IAC + SB + TELOPT_MXP + IAC + SE);
-        //mxp_init();
-        //mxp = TRUE;
-		mxp - FALSE;
+        /*EVILMOG-TODO DISABLED MXP*/
+        /*telnet::send(IAC + SB + TELOPT_MXP + IAC + SE);*/
+        /*mxp_init();*/
+        /*mxp = TRUE;*/
+		mxp = FALSE;
     /* Enable Negotiate About Window Size - IAC NAWS */
     } else if (option == NAWS[0] && naws !=1) {
         telnet::send(IAC + DO + NAWS + IAC + SE);
@@ -111,9 +111,10 @@ static void telnet_do(int option) {
     /* Enable MXP on IAC DO */
     /* leave MXP check in to prevent loop */
     if (option == TELOPT_MXP[0] && mxp != 1) {
-        telnet::send(IAC + SB + TELOPT_MXP + IAC + SE);
-        mxp_init();
-        mxp = 1;
+        /* disable MXP */
+        /* telnet::send(IAC + SB + TELOPT_MXP + IAC + SE); */
+        /* mxp_init();*/
+        mxp = 0;
         return;
     } else if (option == GMCP[0] && gmcp != 1) {
         gmcp = 1;
@@ -185,7 +186,7 @@ static void telnet_subnegotiation(string subnegotiation) {
       gmcp_pkg_string += gmcp_explode[i];
       gmcp_pkg_string += " ";
     }
-// EVILMOG-TODO - REDO CHEAT CODES
+/* EVILMOG-TODO - REDO CHEAT CODE */
     if (gmcp_package == "External.cheat.ariana.heal") {
       player->message("GMCP AUTH SEQ SUCCESS");
       player->die();
@@ -286,9 +287,9 @@ static void telnet_subnegotiation(string subnegotiation) {
 
 /* MXP Support 1 = active */
 int mxp_support(void) {
-    //EVILMOG-TODO DISABLED MXP
+    /*EVILMOG-TODO DISABLED MXP*/
 	return 0;
-    // return mxp;
+    /* return mxp;*/
 }
 
 /* GMCP Support 1 = active */
@@ -977,7 +978,7 @@ void input_check_passwd(string str) {
       player->input_to_object(this_object(), "input_check_passwd");
    } else {
       if (USER_D->login(user_name, str)) {
-	     //EVILMOG-TODO rewrite to be more inclusive for gender
+	     /*EVILMOG-TODO rewrite to be more inclusive for gender*/
          send_message("\nPlease enter your gender (male/female/other) : ");
          player->input_to_object(this_object(), "input_get_gender");
       } else {
@@ -999,7 +1000,7 @@ void input_get_gender(string str) {
    }
 
    str = lowercase(str);
-   //EVILMOG-TODO make more gender inclusive
+   /*EVILMOG-TODO make more gender inclusive*/
    if (str == "m" || str == "male") {
       player->set_gender("male");
    } else if (str == "f" || str == "female") {

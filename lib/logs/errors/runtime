@@ -1,0 +1,64 @@
+Failed to compile "/std/monster_race.c"
+Thu Dec  3 03:35:39 2020:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 455
+ 315 initialize        /kernel/sys/driver
+ 308 _initialize       /kernel/sys/driver
+  99 _F_create         /kernel/lib/auto (/sys/daemons/init_d)
+ 117 create            /sys/daemons/init_d
+  99 _F_create         /kernel/lib/auto (/daemons/race_d)
+  19 create            /daemons/race_d
+  41 clone_object      /kernel/lib/auto (/daemons/race_d)
+  33 compile_object    /kernel/lib/auto (/daemons/race_d)
+ 184 compile_object    /kernel/sys/driver
+ 455 inherit_program   /kernel/sys/driver
+ 455 inherit_program   /kernel/sys/driver
+
+Failed to compile "/std/room.c"
+Thu Dec  3 03:42:58 2020:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 455
+ 315 initialize        /kernel/sys/driver
+ 308 _initialize       /kernel/sys/driver
+  99 _F_create         /kernel/lib/auto (/sys/daemons/init_d)
+ 117 create            /sys/daemons/init_d
+ 410 call_object       /kernel/sys/driver
+ 184 compile_object    /kernel/sys/driver
+ 455 inherit_program   /kernel/sys/driver
+
+Failed to compile "/std/room.c"
+Thu Dec  3 03:42:58 2020:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 455
+ 315 initialize        /kernel/sys/driver
+ 308 _initialize       /kernel/sys/driver
+  99 _F_create         /kernel/lib/auto (/sys/daemons/init_d)
+ 117 create            /sys/daemons/init_d
+ 410 call_object       /kernel/sys/driver
+ 184 compile_object    /kernel/sys/driver
+ 455 inherit_program   /kernel/sys/driver
+
+Failed to compile "/std/room.c"
+Thu Dec  3 03:42:59 2020:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 455
+ 315 initialize        /kernel/sys/driver
+ 308 _initialize       /kernel/sys/driver
+  99 _F_create         /kernel/lib/auto (/sys/daemons/init_d)
+ 117 create            /sys/daemons/init_d
+ 410 call_object       /kernel/sys/driver
+ 184 compile_object    /kernel/sys/driver
+ 455 inherit_program   /kernel/sys/driver
+
+Failed to compile "/std/room.c"
+Thu Dec  3 03:42:59 2020:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 455
+ 315 initialize        /kernel/sys/driver
+ 308 _initialize       /kernel/sys/driver
+  99 _F_create         /kernel/lib/auto (/sys/daemons/init_d)
+ 117 create            /sys/daemons/init_d
+ 410 call_object       /kernel/sys/driver
+ 184 compile_object    /kernel/sys/driver
+ 455 inherit_program   /kernel/sys/driver
+
+Failed to compile "/std/room.c"
+Thu Dec  3 03:42:59 2020:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 455
+ 315 initialize        /kernel/sys/driver
+ 308 _initialize       /kernel/sys/driver
+  99 _F_create         /kernel/lib/auto (/sys/daemons/init_d)
+ 117 create            /sys/daemons/init_d
+ 410 call_object       /kernel/sys/driver
+ 184 compile_object    /kernel/sys/driver
+ 455 inherit_program   /kernel/sys/driver
+

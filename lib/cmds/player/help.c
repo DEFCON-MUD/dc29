@@ -115,7 +115,7 @@ static void main(string arg) {
    }
 
    file = normalize_path(arg, "/doc/help/");
-//EVILMOG-TODO DECIDE IF HELP BUG NEEDS TO STAY
+/*EVILMOG-TODO DECIDE IF HELP BUG NEEDS TO STAY*/
    if (strcmp(file[0..9], "/doc/help/") != 0) {
       write("Invalid help file.\n");
       return;

@@ -102,7 +102,7 @@ static int transfer_money(int amount, string cointype, string where) {
      return 0;
    }
 
-//EVILMOG-TODO - FIX MONEY BUGS
+/*EVILMOG-TODO - FIX MONEY BUGS*/
    if (!obj) {
       write("Who are you trying to give that to?");
       return 0;

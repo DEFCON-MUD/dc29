@@ -38,7 +38,7 @@ static void main(string str) {
    if (!alsos) {
       setup_alsos();
    }
-//EVILMOG-TODO - FIX FOLLOWER BUGS
+/*EVILMOG-TODO - FIX FOLLOWER BUGS*/
    name = this_player()->query_follower();
    if (empty_str(str)) {
       if (name && (name != "")) {

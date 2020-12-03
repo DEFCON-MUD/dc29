@@ -106,7 +106,7 @@ int query_aggressive(void) {
 }
 
 int set_level(int x) {
-//EVILMOG-TODO redo monster stats on set level
+/*EVILMOG-TODO redo monster stats on set level*/
    level = x;
    x = x * 6;
    set_max_hp(x);

@@ -26,7 +26,8 @@ void setup_alsos() {
    add_also("player", "wear");
    add_also("player", "wield");
 }
-// TODO-EVILMOG - FIX Negative Coins
+
+/* TODO-EVILMOG - FIX Negative Coins */
 static int do_drop_coin(int amount, string type) {
    object obj;
    int value;
