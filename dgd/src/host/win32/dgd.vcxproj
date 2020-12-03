@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\alloc.cpp" />
+    <ClCompile Include="..\..\array.cpp" />
+    <ClCompile Include="..\..\call_out.cpp" />
+    <ClCompile Include="..\..\comm.cpp" />
+    <ClCompile Include="..\..\comp\codegen.cpp" />
+    <ClCompile Include="..\..\comp\compile.cpp" />
+    <ClCompile Include="..\..\comp\control.cpp" />
+    <ClCompile Include="..\..\comp\node.cpp" />
+    <ClCompile Include="..\..\comp\optimize.cpp" />
+    <ClCompile Include="..\..\comp\parser.cpp" />
+    <ClCompile Include="..\..\config.cpp" />
+    <ClCompile Include="..\..\data.cpp" />
+    <ClCompile Include="..\..\dgd.cpp" />
+    <ClCompile Include="..\..\editor.cpp" />
+    <ClCompile Include="..\..\ed\buffer.cpp" />
+    <ClCompile Include="..\..\ed\cmdsub.cpp" />
+    <ClCompile Include="..\..\ed\edcmd.cpp" />
+    <ClCompile Include="..\..\ed\fileio.cpp" />
+    <ClCompile Include="..\..\ed\line.cpp" />
+    <ClCompile Include="..\..\ed\regexp.cpp" />
+    <ClCompile Include="..\..\ed\vars.cpp" />
+    <ClCompile Include="..\..\error.cpp" />
+    <ClCompile Include="..\..\ext.cpp" />
+    <ClCompile Include="..\..\hash.cpp" />
+    <ClCompile Include="..\..\interpret.cpp" />
+    <ClCompile Include="..\..\kfun\builtin.cpp" />
+    <ClCompile Include="..\..\kfun\extra.cpp" />
+    <ClCompile Include="..\..\kfun\file.cpp" />
+    <ClCompile Include="..\..\kfun\math.cpp" />
+    <ClCompile Include="..\..\kfun\std.cpp" />
+    <ClCompile Include="..\..\kfun\table.cpp" />
+    <ClCompile Include="..\..\lex\macro.cpp" />
+    <ClCompile Include="..\..\lex\ppcontrol.cpp" />
+    <ClCompile Include="..\..\lex\ppstr.cpp" />
+    <ClCompile Include="..\..\lex\special.cpp" />
+    <ClCompile Include="..\..\lex\token.cpp" />
+    <ClCompile Include="..\..\object.cpp" />
+    <ClCompile Include="..\..\parser\dfa.cpp" />
+    <ClCompile Include="..\..\parser\grammar.cpp" />
+    <ClCompile Include="..\..\parser\parse.cpp" />
+    <ClCompile Include="..\..\parser\srp.cpp" />
+    <ClCompile Include="..\..\path.cpp" />
+    <ClCompile Include="..\..\str.cpp" />
+    <ClCompile Include="..\..\swap.cpp" />
+    <ClCompile Include="..\asn.cpp" />
+    <ClCompile Include="..\crypt.cpp" />
+    <ClCompile Include="..\hostfloat.cpp" />
+    <ClCompile Include="connect.cpp" />
+    <ClCompile Include="dload.cpp" />
+    <ClCompile Include="dosfile.cpp" />
+    <ClCompile Include="local.cpp" />
+    <ClCompile Include="time.cpp" />
+    <ClCompile Include="windgd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\alloc.h" />
+    <ClInclude Include="..\..\array.h" />
+    <ClInclude Include="..\..\asn.h" />
+    <ClInclude Include="..\..\call_out.h" />
+    <ClInclude Include="..\..\comm.h" />
+    <ClInclude Include="..\..\comp\codegen.h" />
+    <ClInclude Include="..\..\comp\comp.h" />
+    <ClInclude Include="..\..\comp\compile.h" />
+    <ClInclude Include="..\..\comp\control.h" />
+    <ClInclude Include="..\..\comp\node.h" />
+    <ClInclude Include="..\..\comp\optimize.h" />
+    <ClInclude Include="..\..\comp\parser.h" />
+    <ClInclude Include="..\..\config.h" />
+    <ClInclude Include="..\..\data.h" />
+    <ClInclude Include="..\..\dgd.h" />
+    <ClInclude Include="..\..\editor.h" />
+    <ClInclude Include="..\..\ed\buffer.h" />
+    <ClInclude Include="..\..\ed\ed.h" />
+    <ClInclude Include="..\..\ed\edcmd.h" />
+    <ClInclude Include="..\..\ed\fileio.h" />
+    <ClInclude Include="..\..\ed\line.h" />
+    <ClInclude Include="..\..\ed\regexp.h" />
+    <ClInclude Include="..\..\ed\vars.h" />
+    <ClInclude Include="..\..\error.h" />
+    <ClInclude Include="..\..\ext.h" />
+    <ClInclude Include="..\..\hash.h" />
+    <ClInclude Include="..\..\host.h" />
+    <ClInclude Include="..\..\interpret.h" />
+    <ClInclude Include="..\..\kfun\kfun.h" />
+    <ClInclude Include="..\..\kfun\table.h" />
+    <ClInclude Include="..\..\lex\lex.h" />
+    <ClInclude Include="..\..\lex\macro.h" />
+    <ClInclude Include="..\..\lex\ppcontrol.h" />
+    <ClInclude Include="..\..\lex\ppstr.h" />
+    <ClInclude Include="..\..\lex\special.h" />
+    <ClInclude Include="..\..\lex\token.h" />
+    <ClInclude Include="..\..\object.h" />
+    <ClInclude Include="..\..\parser\dfa.h" />
+    <ClInclude Include="..\..\parser\grammar.h" />
+    <ClInclude Include="..\..\parser\parse.h" />
+    <ClInclude Include="..\..\parser\srp.h" />
+    <ClInclude Include="..\..\path.h" />
+    <ClInclude Include="..\..\str.h" />
+    <ClInclude Include="..\..\swap.h" />
+    <ClInclude Include="..\..\version.h" />
+    <ClInclude Include="..\..\xfloat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\comp\parser.y">
+      <FileType>Document</FileType>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building LPC parser</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Bison.exe --defines="$(ProjectDir)..\..\comp\parser.h" "$(ProjectDir)..\..\comp\parser.y" -o "$(ProjectDir)..\..\comp\parser.cpp"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\comp\parser.cpp;..\..\comp\parser.h;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building LPC parser</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Bison.exe --defines="$(ProjectDir)..\..\comp\parser.h" "$(ProjectDir)..\..\comp\parser.y" -o "$(ProjectDir)..\..\comp\parser.cpp"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\comp\parser.cpp;..\..\comp\parser.h;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building LPC parser</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Bison.exe --defines="$(ProjectDir)..\..\comp\parser.h" "$(ProjectDir)..\..\comp\parser.y" -o "$(ProjectDir)..\..\comp\parser.cpp"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\comp\parser.cpp;..\..\comp\parser.h;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building LPC parser</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Bison.exe --defines="$(ProjectDir)..\..\comp\parser.h" "$(ProjectDir)..\..\comp\parser.y" -o "$(ProjectDir)..\..\comp\parser.cpp"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\comp\parser.cpp;..\..\comp\parser.h;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D35360AA-B87E-4F90-AD31-183DAB9EFAF0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>dgd</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <CustomBuildBeforeTargets>ClCompile</CustomBuildBeforeTargets>
+    <IncludePath>$(ProjectDir)..\..\;$(ProjectDir)..\..\comp;$(ProjectDir)..\..\ed;$(ProjectDir);$(ProjectDir)..\..\kfun;$(ProjectDir)..\..\lex;$(ProjectDir)..\..\lpc;$(ProjectDir)..\..\parser;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <CustomBuildBeforeTargets>ClCompile</CustomBuildBeforeTargets>
+    <IncludePath>$(ProjectDir)..\..\;$(ProjectDir)..\..\comp;$(ProjectDir)..\..\ed;$(ProjectDir);$(ProjectDir)..\..\kfun;$(ProjectDir)..\..\lex;$(ProjectDir)..\..\lpc;$(ProjectDir)..\..\parser;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)..\..\;$(ProjectDir)..\..\comp;$(ProjectDir)..\..\ed;$(ProjectDir);$(ProjectDir)..\..\kfun;$(ProjectDir)..\..\lex;$(ProjectDir)..\..\lpc;$(ProjectDir)..\..\parser;$(IncludePath)</IncludePath>
+    <CustomBuildBeforeTargets>ClCompile</CustomBuildBeforeTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)..\..\;$(ProjectDir)..\..\comp;$(ProjectDir)..\..\ed;$(ProjectDir);$(ProjectDir)..\..\kfun;$(ProjectDir)..\..\lex;$(ProjectDir)..\..\lpc;$(ProjectDir)..\..\parser;$(IncludePath)</IncludePath>
+    <CustomBuildBeforeTargets>ClCompile</CustomBuildBeforeTargets>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;YYFREE=free;YYMALLOC=malloc;;;;;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4127;4310;4244;4018;4389;4245;4702;4146;4709;4706</DisableSpecificWarnings>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>8192000</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;YYFREE=free;YYMALLOC=malloc;;;;;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4127;4310;4244;4018;4389;4245;4702;4146;4709;4706</DisableSpecificWarnings>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>8192000</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;YYFREE=free;YYMALLOC=malloc;;;;;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4127;4310;4244;4018;4389;4245;4702;4146;4709;4706</DisableSpecificWarnings>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>8192000</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;YYFREE=free;YYMALLOC=malloc;;;;;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4127;4310;4244;4018;4389;4245;4702;4146;4709;4706</DisableSpecificWarnings>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>8192000</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

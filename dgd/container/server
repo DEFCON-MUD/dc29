@@ -1,0 +1,16 @@
+#!/bin/sh
+
+/container/update
+
+snapshot=/container/state/snapshot
+snapshot2=/container/state/snapshot.old
+if [ \! -f $snapshot ]
+then
+    snapshot=
+fi
+if [ \! -f $snapshot2 ]
+then
+    snapshot2=
+fi
+
+exec su dgd -c "/container/dgd/bin/dgd $* $snapshot $snapshot2"

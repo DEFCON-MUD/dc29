@@ -1,0 +1,3 @@
+[submodule "lpc-doc"]
+	path = lpc-doc
+	url = git://github.com/dworkin/lpc-doc.git
