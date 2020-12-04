@@ -37,7 +37,7 @@ static void main(string str) {
       return;
    }
    /* male, female, non-binary, other, unicorn, enby, cryptid*/
-   if (lowercase(str) == "other" || lowercase(str) == "male" || lowercase(str) == "female" || lowercase(str) == "non-binary" lowercase(str) == "unicorn" || lowercase(str) == "enby" lowercase(str) == "cryptid") {
+   if (lowercase(str) == "other" || lowercase(str) == "male" || lowercase(str) == "female" || lowercase(str) == "non-binary" || lowercase(str) == "unicorn" || lowercase(str) == "enby" || lowercase(str) == "cryptid") {
       this_player()->set_gender(lowercase(str));
       write("You are now " + lowercase(str) +"\n");
       this_player()->save_me();
