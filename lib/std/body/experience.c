@@ -14,66 +14,66 @@ int ready_for_next_level(void) {
 string query_level_title(int level) {
    switch (level) {
       case 1:
-         return "the uninitiated.\n";
+         return "the uninitiated.";
          break;
       case 2:
-         return "the newbie.\n";
+         return "the newbie.";
          break;
       case 3:
-         return "is getting the hang of things.\n";
+         return "is getting the hang of things.";
          break;
       case 4:
-         return "the mediocre.\n";
+         return "the mediocre.";
          break;
       case 5:
-         return "the Sub-average.\n";
+         return "the Sub-average.";
          break;
       case 6:
-         return "the Average.\n";
+         return "the Average.";
          break;
       case 7:
-         return "the Strong.\n";
+         return "the Strong.";
          break;
       case 8:
-         return "the Great.\n";
+         return "the Great.";
          break;
       case 9:
          if (this_object()->query_race() == "male") {
-            return "the Baron.\n";
+            return "the Baron.";
          } else {
-            return "the Baroness.\n";
+            return "the Baroness.";
          }
          break;
       case 10:
-         return "the Titan.\n";
+         return "the Titan.";
          break;
       case 11:
-         return "the Conquerer.\n";
+         return "the Conquerer.";
          break;
       case 12:
-         return "the Famous.\n";
+         return "the Famous.";
          break;
       case 13:
-         return "the Awe-inspiring.\n";
+         return "the Awe-inspiring.";
          break;
       case 14:
-         return "the Battle Hardened.\n";
+         return "the Battle Hardened.";
          break;
       case 15:
-         return "the More than Adequate.\n";
+         return "the More than Adequate.";
          break;
       case 16:
          if (this_object()->query_race() == "male") {
-            return "the Grand Baron.\n";
+            return "the Grand Baron.";
          } else {
-            return "the Grand Baroness.\n";
+            return "the Grand Baroness.";
          }
          break;
       case 17:
-         return "the Great Titan.\n";
+         return "the Great Titan.";
          break;
       case 18:
-         return "the Mighty Conquerer.\n";
+         return "the Mighty Conquerer.";
          break;
       case 19:
          return "the High and Mighty.";
