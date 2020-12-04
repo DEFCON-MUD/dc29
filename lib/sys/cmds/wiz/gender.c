@@ -3,7 +3,7 @@ inherit M_COMMAND;
 string *usage(void) {
    string *lines;
 
-   lines = ({ "Usage: gender [-h] [male|female|other]" });
+   lines = ({ "Usage: gender [-h] [male|female|non-binary|other|unicorn|enby|cryptid]" });
    lines += ({ " " });
    lines += ({ "Allows you to set your gender.  If no argument is given " });
    lines += ({ "display your current gender." });
@@ -12,7 +12,7 @@ string *usage(void) {
    lines += ({ "\t-h\tHelp, this usage message." });
    lines += ({ "Examples:" });
    lines += ({ "\tgender" });
-   lines += ({ "\tgender male" });
+   lines += ({ "\tgender cryptid" });
 
    lines += get_alsos();
 
