@@ -6,11 +6,11 @@ void setup(void) {
    set_domainname("EvilMogs Funland");
 
    set_short("A large open field");
-   set_long("You are in a large open field.  To the north you see a large " +
-      "dead tree with some sort of sign on it. \n\n%^RED%^*%^YELLOW%^*%^RESET%^%^RED%^* %^HRED%^WARNING: %^RESET%^Permadeath is active in this game, you can buy death insurance. Right now the game is configured to drop you to level 1 on death.");
+   set_long("Welcome to the DEFCON NewYears MUD. You can decide to play or you can decide to code.\n\n" + 
+    "To the north is woodland which is being completely overhauled, down doesn't go anywhere but it might.\n\n" +
+    "Permadeath is active in the game along with other shenanigans.");
    add_action("fuck", "fuck");
 
-   add_object( "/domains/dungeon/objects/sign.c", 9);
    set_exits(([
       "north" : "/domains/newbie/rooms/tree",
       "down" : "#do_core"
