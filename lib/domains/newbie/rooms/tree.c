@@ -16,7 +16,6 @@ void setup(void) {
    set_exits(([
       "south" : STARTING_ROOM,
       "east" : "#enter_hole",
-      "west" : "/domains/required/rooms/advance.c",
       "north" : "/domains/woodland/rooms/5_16.c"
    ]));
 
