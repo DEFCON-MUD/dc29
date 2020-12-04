@@ -1,5 +1,5 @@
 inherit M_COMMAND;
-//EVILMOG-TODO rewrite to be more inclusive
+/*EVILMOG-TODO rewrite to be more inclusive*/
 string *usage(void) {
    string *lines;
 

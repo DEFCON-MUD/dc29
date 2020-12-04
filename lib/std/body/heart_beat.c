@@ -60,7 +60,7 @@ void event_heart_beat(void) {
          heal_time++;
          if (heal_time > heal_rate) {
             heal_time = 0;
-			//EVILMOG-TODO change death
+			/*EVILMOG-TODO change death*/
             this_object()->message("You are dead.  You must pray to get your " +
              "body back.\n");
          }

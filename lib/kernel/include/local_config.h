@@ -10,10 +10,10 @@ You should at least modify the first 3 entries.
 */
 
 /* What you want your mud to be called (avoid spaces) */
-#define MUD_NAME  "REDCON CTF MUD"
+#define MUD_NAME  "DEFCON NY MUD"
 
 /* Name for your mud on Intermud (avoid spaces) */
-#define IMUD_NAME "REDCON CTF MUD"
+#define IMUD_NAME "DEFCON NY MUD"
 
 /* To define your email address: */
 #define ADMIN_EMAIL             "EvilMog@somewhereclassified.com"
@@ -103,17 +103,17 @@ You should at least modify the first 3 entries.
 
 /* Define this to automatically promote users to a wizard when they 
 	create an account */
-/* #define ALL_USERS_WIZ 1 */
+#define ALL_USERS_WIZ 1
 
 /* Mud Server Status Protocol variables, see sys/lib/user.c for where this
 	is used */
 #define MSSP_FAMILY "LPMud"
-#define MSSP_STATUS "LIVE" /* "ALPHA", "CLOSED BETA", "OPEN BETA", "LIVE" */
+#define MSSP_STATUS "OPEN BETA" /* "ALPHA", "CLOSED BETA", "OPEN BETA", "LIVE" */
 #define MSSP_INTERMUD "I3"
 #define MSSP_ANSI "1"
 #define MSSP_MCCP "0"
 #define MSSP_PAY_TO_PLAY "0"
-#define MSSP_PAY_FOR_PERKS "1"
+#define MSSP_PAY_FOR_PERKS "0"
 
 /* DEBUGGING OPTIONS: Enable these to debug various issues  You probably do
    not want to do this in a live mud */
@@ -127,4 +127,4 @@ You should at least modify the first 3 entries.
 /* #define DEBUG_STACK_SECURITY 1 */
 /* uncomment the line below to get even more debug output.. */
 /* #define DEBUG_STACK_SECURITY_DEEP 1 */
-#define DO_STATS 1
+#define DO_STATS 0

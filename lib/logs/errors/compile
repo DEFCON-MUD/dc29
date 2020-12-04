@@ -1,0 +1,14 @@
+Thu Dec  3 03:35:39 2020: DRIVER :/std/monster_race.c, 17: syntax error
+Thu Dec  3 03:42:58 2020: DRIVER :/std/room.c, 217: multiple declaration of function set_nokill
+Thu Dec  3 03:42:58 2020: DRIVER :/std/room.c, 217: multiple declaration of function set_nokill
+Thu Dec  3 03:42:59 2020: DRIVER :/std/room.c, 217: multiple declaration of function set_nokill
+Thu Dec  3 03:42:59 2020: DRIVER :/std/room.c, 217: multiple declaration of function set_nokill
+Thu Dec  3 03:42:59 2020: DRIVER :/std/room.c, 217: multiple declaration of function set_nokill
+Thu Dec  3 03:44:18 2020: DRIVER :/domains/required/rooms/start.c, 31: value returned from void function
+Thu Dec  3 03:44:18 2020: DRIVER :/domains/required/rooms/start.c, 31: value returned from void function
+Thu Dec  3 03:44:18 2020: DRIVER :/domains/required/rooms/start.c, 31: value returned from void function
+Thu Dec  3 03:44:19 2020: DRIVER :/domains/required/rooms/start.c, 31: value returned from void function
+Thu Dec  3 03:44:19 2020: DRIVER :/domains/required/rooms/start.c, 31: value returned from void function
+Thu Dec  3 03:45:32 2020: DRIVER :/sys/obj/player.c, 726: syntax error
+Thu Dec  3 03:46:11 2020: DRIVER :/sys/obj/player.c, 726: syntax error
+Thu Dec  3 07:02:30 2020:blinkingthing:/domains/woodland/obj/sign.c, 8: undefined function set_message_mxp

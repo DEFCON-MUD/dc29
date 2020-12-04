@@ -1,0 +1,55 @@
+enter: /domains/required/rooms/start.c:/domains/dungeon/objects/sign.c
+enter: /domains/newbie/rooms/tree.c:/domains/newbie/obj/sign.c
+enter: /domains/newbie/rooms/tree.c:/domains/newbie/obj/tree.c
+enter: /domains/required/rooms/start.c:/domains/dungeon/objects/sign.c
+enter: /sys/obj/player.c:/domains/newbie/obj/stick.c
+enter: /domains/newbie/rooms/fighting.c:Bunny
+killed: /domains/newbie/monsters/bunny.c by Blinkingthing(/sys/obj/player.c):1606978726
+enter: /domains/newbie/rooms/fighting.c:/domains/required/objects/corpse.c
+enter: /domains/newbie/rooms/drinkme.c:/domains/newbie/obj/table.c
+enter: /domains/newbie/obj/table.c:/domains/newbie/obj/potion.c
+enter: /domains/newbie/rooms/fighting.c:Bunny
+killed: /domains/newbie/monsters/bunny.c by Blinkingthing(/sys/obj/player.c):1606978866
+enter: /domains/newbie/rooms/fighting.c:/domains/required/objects/corpse.c
+enter: /sys/obj/player.c:/domains/newbie/obj/potion.c
+enter: /domains/woodland/rooms/5_15.c:/domains/woodland/npc/chipmunk.c
+enter: /domains/woodland/rooms/5_14.c:/domains/woodland/npc/mouse.c
+killed: /domains/woodland/npc/mouse.c by Blinkingthing(/sys/obj/player.c):1606979258
+enter: /domains/woodland/rooms/5_14.c:/domains/required/objects/corpse.c
+enter: /domains/woodland/rooms/3_12.c:/domains/woodland/npc/fox.c
+killed: /domains/woodland/npc/fox.c by Blinkingthing(/sys/obj/player.c):1606979333
+enter: /domains/woodland/rooms/3_12.c:/domains/required/objects/corpse.c
+enter: /domains/woodland/rooms/2_12.c:/domains/woodland/npc/porcupine.c
+killed: /domains/woodland/npc/porcupine.c by Blinkingthing(/sys/obj/player.c):1606979347
+enter: /domains/woodland/rooms/2_12.c:/domains/required/objects/corpse.c
+enter: /domains/woodland/rooms/0_11.c:/domains/woodland/npc/badger.c
+killed: /domains/woodland/npc/badger.c by Blinkingthing(/sys/obj/player.c):1606979385
+enter: /domains/woodland/rooms/0_11.c:/domains/required/objects/corpse.c
+enter: /domains/woodland/rooms/2_10.c:/domains/woodland/npc/coyote.c
+killed: /domains/woodland/npc/coyote.c by Blinkingthing(/sys/obj/player.c):1606979407
+enter: /domains/woodland/rooms/2_10.c:/domains/required/objects/corpse.c
+enter: /domains/woodland/rooms/2_11.c:/domains/woodland/npc/beaver.c
+killed: /domains/woodland/npc/beaver.c by Blinkingthing(/sys/obj/player.c):1606979417
+enter: /domains/woodland/rooms/2_11.c:/domains/required/objects/corpse.c
+enter: /domains/woodland/rooms/4_11.c:/domains/woodland/npc/grouse.c
+killed: /domains/woodland/npc/grouse.c by Blinkingthing(/sys/obj/player.c):1606979441
+enter: /domains/woodland/rooms/4_11.c:/domains/required/objects/corpse.c
+enter: /domains/woodland/rooms/6_13.c:/domains/woodland/npc/chickadee.c
+killed: /domains/woodland/npc/chickadee.c by Blinkingthing(/sys/obj/player.c):1606979463
+enter: /domains/woodland/rooms/6_13.c:/domains/required/objects/corpse.c
+enter: /domains/woodland/rooms/7_13.c:/domains/woodland/npc/wolf.c
+killed: /domains/woodland/npc/wolf.c by Blinkingthing(/sys/obj/player.c):1606979469
+enter: /domains/woodland/rooms/7_13.c:/domains/required/objects/corpse.c
+enter: /domains/woodland/rooms/8_12.c:/domains/woodland/npc/bear.c
+killed: /domains/woodland/npc/bear.c by Blinkingthing(/sys/obj/player.c):1606979475
+enter: /domains/woodland/rooms/8_12.c:/domains/required/objects/corpse.c
+enter: /domains/woodland/rooms/9_11.c:/domains/woodland/npc/unicorn.c
+killed: /domains/woodland/npc/unicorn.c by Blinkingthing(/sys/obj/player.c):1606979489
+enter: /domains/woodland/rooms/9_11.c:/domains/required/objects/corpse.c
+enter: /domains/woodland/rooms/6_14.c:/domains/woodland/npc/skunk.c
+killed: /domains/woodland/npc/skunk.c by Blinkingthing(/sys/obj/player.c):1606979511
+enter: /domains/woodland/rooms/6_14.c:/domains/required/objects/corpse.c
+killed: /domains/woodland/npc/chipmunk.c by Blinkingthing(/sys/obj/player.c):1606979564
+enter: /domains/woodland/rooms/5_15.c:/domains/required/objects/corpse.c
+enter: /domains/required/rooms/start.c:/domains/dungeon/objects/sign.c
+enter: /domains/required/rooms/start.c:/domains/dungeon/objects/sign.c

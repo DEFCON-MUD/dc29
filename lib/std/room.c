@@ -214,10 +214,6 @@ int query_pk(void) {
   return pk;
 }
 
-void set_nokill(int flag) {
-   nokill = flag;
-}
-
 int query_nokill(void) {
   if (!nokill) {
     return 0;

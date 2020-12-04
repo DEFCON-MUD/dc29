@@ -1,0 +1,153 @@
+
+Failed to compile "/sys/obj/player.c"
+Thu Dec  3 03:46:11 2020:Object: /kernel/sys/driver, program: /kernel/sys/driver, line 184
+ 396 open              /sys/obj/user (#132)
+ 385 _open             /sys/obj/user (#132)
+  41 clone_object      /kernel/lib/auto (/sys/obj/user#132)
+  33 compile_object    /kernel/lib/auto (/sys/obj/user#132)
+ 184 compile_object    /kernel/sys/driver
+
+Bad argument 1 for kfun call_other
+Thu Dec  3 03:46:13 2020:Object: /sys/obj/user#132, program: /sys/obj/user, line 548
+ 559 receive_message   /sys/obj/user (#132)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#132)
+ 548 _receive_message  /sys/obj/user (#132)
+
+Bad argument 1 to destruct_object (needs object)
+Thu Dec  3 03:47:31 2020:Object: /sys/obj/user#112, program: /sys/obj/user, line 423
+  21 _F_call_out       /kernel/lib/auto (/sys/obj/user#112)
+  15 _F_call_out2      /kernel/lib/auto (/sys/obj/user#112)
+ 423 login_timeout     /sys/obj/user (#112)
+
+Bad argument 1 for kfun call_other
+Thu Dec  3 03:48:04 2020:Object: /sys/obj/user#132, program: /sys/obj/user, line 407
+ 418 close             /sys/obj/user (#132)
+ 407 _close            /sys/obj/user (#132)
+
+Bad argument 1 to destruct_object (needs object)
+Thu Dec  3 03:48:10 2020:Object: /sys/obj/user#132, program: /sys/obj/user, line 423
+  21 _F_call_out       /kernel/lib/auto (/sys/obj/user#132)
+  15 _F_call_out2      /kernel/lib/auto (/sys/obj/user#132)
+ 423 login_timeout     /sys/obj/user (#132)
+
+Invalid string range
+Thu Dec  3 04:30:32 2020:Object: /cmds/player/help, program: /cmds/player/help, line 119
+ 559 receive_message   /sys/obj/user (#135)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#135)
+ 554 _receive_message  /sys/obj/user (#135)
+1639 receive_message   /sys/obj/player (#133)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#133)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/help)
+ 119 main              /cmds/player/help
+
+Invalid string range
+Thu Dec  3 04:30:34 2020:Object: /cmds/player/help, program: /cmds/player/help, line 119
+ 559 receive_message   /sys/obj/user (#135)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#135)
+ 554 _receive_message  /sys/obj/user (#135)
+1639 receive_message   /sys/obj/player (#133)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#133)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/help)
+ 119 main              /cmds/player/help
+
+Invalid string range
+Thu Dec  3 04:30:41 2020:Object: /cmds/player/help, program: /cmds/player/help, line 119
+ 559 receive_message   /sys/obj/user (#135)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#135)
+ 554 _receive_message  /sys/obj/user (#135)
+1639 receive_message   /sys/obj/player (#133)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#133)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/help)
+ 119 main              /cmds/player/help
+
+Invalid string range
+Thu Dec  3 04:31:04 2020:Object: /cmds/player/help, program: /cmds/player/help, line 119
+ 559 receive_message   /sys/obj/user (#135)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#135)
+ 554 _receive_message  /sys/obj/user (#135)
+1639 receive_message   /sys/obj/player (#133)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#133)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/help)
+ 119 main              /cmds/player/help
+
+Invalid string range
+Thu Dec  3 04:36:58 2020:Object: /cmds/player/help, program: /cmds/player/help, line 119
+ 559 receive_message   /sys/obj/user (#135)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#135)
+ 554 _receive_message  /sys/obj/user (#135)
+1639 receive_message   /sys/obj/player (#133)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#133)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/help)
+ 119 main              /cmds/player/help
+
+Invalid string range
+Thu Dec  3 04:37:13 2020:Object: /cmds/player/help, program: /cmds/player/help, line 119
+ 559 receive_message   /sys/obj/user (#135)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#135)
+ 554 _receive_message  /sys/obj/user (#135)
+1639 receive_message   /sys/obj/player (#133)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#133)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/help)
+ 119 main              /cmds/player/help
+
+String index out of range
+Thu Dec  3 07:04:50 2020:Object: /cmds/player/chan, program: /cmds/player/chan, line 245
+ 559 receive_message   /sys/obj/user (#104)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#104)
+ 554 _receive_message  /sys/obj/user (#104)
+1658 receive_message   /sys/obj/player (#100)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#100)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/chan)
+ 245 main              /cmds/player/chan
+
+String index out of range
+Thu Dec  3 07:05:09 2020:Object: /cmds/player/chan, program: /cmds/player/chan, line 245
+ 559 receive_message   /sys/obj/user (#104)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#104)
+ 554 _receive_message  /sys/obj/user (#104)
+1658 receive_message   /sys/obj/player (#100)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#100)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/chan)
+ 245 main              /cmds/player/chan
+
+Invalid string range
+Thu Dec  3 07:14:46 2020:Object: /cmds/player/help, program: /cmds/player/help, line 119
+ 559 receive_message   /sys/obj/user (#104)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#104)
+ 554 _receive_message  /sys/obj/user (#104)
+1639 receive_message   /sys/obj/player (#100)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#100)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/help)
+ 119 main              /cmds/player/help
+
+Invalid string range
+Thu Dec  3 07:14:50 2020:Object: /cmds/player/help, program: /cmds/player/help, line 119
+ 559 receive_message   /sys/obj/user (#104)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#104)
+ 554 _receive_message  /sys/obj/user (#104)
+1639 receive_message   /sys/obj/player (#100)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#100)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/help)
+ 119 main              /cmds/player/help
+
+Invalid string range
+Thu Dec  3 07:25:31 2020:Object: /cmds/player/help, program: /cmds/player/help, line 119
+ 559 receive_message   /sys/obj/user (#104)
+ 170 receive           /sys/lib/telnet (/sys/obj/user#104)
+ 554 _receive_message  /sys/obj/user (#104)
+1639 receive_message   /sys/obj/player (#100)
+ 155 command           /sys/lib/modules/m_cmds (/sys/obj/player#100)
+ 156 exec_command      /sys/daemons/command_d
+  14 _main             /sys/lib/modules/m_command (/cmds/player/help)
+ 119 main              /cmds/player/help
+

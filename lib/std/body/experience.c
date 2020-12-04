@@ -120,7 +120,7 @@ void reset_title(void) {
 }
 
 void increase_level(void) {
-//EVILMOG-TODO change increase_level
+/*EVILMOG-TODO change increase_level*/
    level += 1;
    this_object()->set_max_hp((level *
       this_object()->query_base_stat("str")) + 20);

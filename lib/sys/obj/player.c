@@ -226,7 +226,7 @@ void set_ga(int state) {
 }
 
 int query_difficulty(void) {
-// EVILMOG-TODO write difficulty
+/* EVILMOG-TODO write difficulty*/
   return 0;
 
 }
@@ -245,7 +245,7 @@ int set_lives(int tmp_lives) {
 }
 
 int increment_death(void) {
-//EVILMOG-TODO rewrite permadeath
+/*EVILMOG-TODO rewrite permadeath*/
   int tmp_lives;
   string name;
   name = this_object()->query_name();
@@ -290,10 +290,10 @@ int query_mxp_support() {
 }
 
 int query_mxp(void) {
-//EVILMOG-TODO stub out MXP
+/*EVILMOG-TODO stub out MXP*/
 
    return 0;
-   //return mxp | user->mxp_support();
+   /*return mxp | user->mxp_support();*/
 }
 
 void set_mxp(int state) {
@@ -717,11 +717,10 @@ void set_start_room(string path) {
 
 string query_death_room(void) {
    if (!death_room) {
-//EVILMOG-TODO redo death_room
+/*EVILMOG-TODO redo death_room*/
 
       return STARTING_ROOM;
     }
-   }
 
    return death_room;
 }
@@ -1052,7 +1051,7 @@ void write_prompt(void) {
          this_player()->query_max_end());
       out(result + "%^RESET%^ ");
    }
- // TODO-EVILMOG - Add suppress GA logic
+ /* TODO-EVILMOG - Add suppress GA logic*/
   send_ga();
 
 }
@@ -1442,7 +1441,7 @@ string random_error(void) {
 
    randomval = random(7);
    switch (randomval) {
-   //EVILMOG-TODO rewrite failure prompts
+   /*EVILMOG-TODO rewrite failure prompts*/
       case 0:
          return "< %^RED%^Status 400%^RESET%^ PC LOAD LETTER.....";
          break;

@@ -48,7 +48,7 @@ int pickable() {
 }
 
 static void main(string str) {
-//EVILMOG-TODO REDO LOCK PICKING
+/*EVILMOG-TODO REDO LOCK PICKING*/
 
    if (!pickable()) {
      write("You fail to pick the lock.....\n");

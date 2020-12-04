@@ -28,7 +28,7 @@ void do_core(void) {
   object player;
   player = this_player();
   write("The shuttle to colony has been shut down");
-  return 1;
+  return;
 }
 
 

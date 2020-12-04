@@ -56,11 +56,11 @@ static void main(string str) {
       this_player()->more(usage());
       return;
    }
-   //EVILMOG-TODO - remove shout
+   /*EVILMOG-TODO - remove shout*/
    write("shout has been disabled");
    return;
    
-   //THIS SHOULD NOT BE CALLED
+   /*THIS SHOULD NOT BE CALLED*/
    if (this_player()->query_muzzle()) {
       write("A magical muzzle has been placed on you, you can not shout.\n");
       this_player()->query_environment()->tell_room(this_player(),
@@ -72,7 +72,7 @@ static void main(string str) {
    usrs = players();
 
    for (i = 0; i < sizeof(usrs); i++) {
-   //EVILMOG-TODO if shout is enabled, remove the annoying ping
+   /*EVILMOG-TODO if shout is enabled, remove the annoying ping*/
       usrs[i]->message("%^RED%^" + "" +
          this_player()->query_Name() + " shouts: %^RESET%^" + str + "\n");
    }

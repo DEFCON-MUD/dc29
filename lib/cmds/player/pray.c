@@ -16,7 +16,7 @@ string *usage(void) {
 
    return lines;
 }
-//EVILMOG-TODO DECIDE TO REBUILD PRAY
+/*EVILMOG-TODO DECIDE TO REBUILD PRAY*/
 
 void setup_alsos() {
    add_also("player", "attack");

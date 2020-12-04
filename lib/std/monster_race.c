@@ -14,7 +14,7 @@ void create(void) {
    base_stat_minimum["int"] = 1;
    base_stat_minimum["wis"] = 1;
    base_stat_minimum["cha"] = 1;
-//EVILMOG-TODO rebalance monsters
+/*EVILMOG-TODO rebalance monsters*/
    base_stat_maximum = ([]);
    base_stat_maximum["str"] = 30;
    base_stat_maximum["con"] = 30;

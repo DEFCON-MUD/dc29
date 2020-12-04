@@ -1,0 +1,6 @@
+**/*.o
+tmp/**
+lib/sys/daemons/data/users/*.o
+lib/logs/**
+dump
+dump.old

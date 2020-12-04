@@ -28,20 +28,20 @@
  * default: 64K objects, 64K swap sectors, 255 users, max string length 64K
  */
 # ifndef UINDEX_TYPE
-# define UINDEX_TYPE	unsigned short
-# define UINDEX_MAX	USHRT_MAX
+# define UINDEX_TYPE	unsigned int
+# define UINDEX_MAX	UINT_MAX
 # endif
 # ifndef SECTOR_TYPE
 # define SECTOR_TYPE	UINDEX_TYPE
 # define SECTOR_MAX	UINDEX_MAX
 # endif
 # ifndef EINDEX_TYPE
-# define EINDEX_TYPE	unsigned char
-# define EINDEX_MAX	UCHAR_MAX
+# define EINDEX_TYPE	unsigned short
+# define EINDEX_MAX	USHRT_MAX
 # endif
 # ifndef SSIZET_TYPE
-# define SSIZET_TYPE	unsigned short
-# define SSIZET_MAX	USHRT_MAX
+# define SSIZET_TYPE	unsigned int
+# define SSIZET_MAX	UINT_MAX
 # endif
 
 typedef UINDEX_TYPE uindex;
