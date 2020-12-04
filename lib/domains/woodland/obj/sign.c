@@ -5,7 +5,6 @@ void setup(void) {
    set_short("A sign");
    set_long("This is an average wooden sign, perhaps you should try reading it");
    set_message("Welcome to woodland critter christmas:\n\nYour mission is to exterminate one of every type of creature. Once you do you will complete the quest and unlock the next flag.\n\nOnce you have completed the quest type %^MAGENTA%^claim%^RESET%^ to claim your prize.\n\nDuring the quest you can check your status by the %^MAGENTA%^woodland%^RESET%^ command.\n");
-   set_message_mxp("%^MXP_LSM%^Welcome to woodland critter christmas:\n\nYour mission is to exterminate one of every type of creature. Once you do you will complete the quest and unlock the next flag.\n\nOnce you have completed the quest type %^MAGENTA%^<send href=\"claim\">claim</send>%^RESET%^ to claim your prize.\n\nDuring the quest you can check your status by the %^MAGENTA%^<send href=\"woodland\">woodland</send>%^RESET%^ command.\n");
    set_gettable(0);
    set_weight(1);
    /* This isn't a special rock... */
