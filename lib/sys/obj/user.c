@@ -1023,7 +1023,7 @@ void input_get_gender(string str) {
       return;
    } else {
       send_message("Please use 'male', 'female' or 'other'.\n");
-      send_message("NOTE: You can Change your gender in game without penalty\n\n")
+      send_message("NOTE: You can Change your gender in game without penalty\n\n");
       send_message("Please enter your gender (male/female/other) : ");
 
       player->input_to_object(this_object(), "input_get_gender");
