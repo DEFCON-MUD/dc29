@@ -994,7 +994,7 @@ void input_check_passwd(string str) {
 
 void input_get_gender(string str) {
    if (!str || str == "") {
-      send_message("Please enter your player gender (male/female/neuter/other):");
+      send_message("Please enter your player gender (male, female, non-binary, other, unicorn, enby, cryptid):");
       player->input_to_object(this_object(), "input_get_gender");
       return;
    }
@@ -1005,10 +1005,17 @@ void input_get_gender(string str) {
       player->set_gender("male");
    } else if (str == "f" || str == "female") {
       player->set_gender("female");
-   } else if (str == "n" || str == "neuter") {
-      player->set_gender("neuter");
    } else if (str == "o" || str == "other") {
       player->set_gender("other");
+   } else if (str == "n" || str == "non-binary" || str == "nonbinary") {
+      player->set_gender("non-binary");
+   } else if (str == "u" || str == "unicorn") {
+      player->set_gender("unicorn");
+   } else if (str == "e" || str == "enby") {
+      player->set_gender("enby");
+   } else if (str == "c" || str == "cryptid") {
+      player->set_gender("cryptid");
+   
    } else if (str == "quit") {
       write("Goodbye!!!\n");
       destruct_object(player);
@@ -1016,7 +1023,9 @@ void input_get_gender(string str) {
       return;
    } else {
       send_message("Please use 'male', 'female' or 'other'.\n");
+      send_message("NOTE: You can Change your gender in game without penalty\n\n")
       send_message("Please enter your gender (male/female/other) : ");
+
       player->input_to_object(this_object(), "input_get_gender");
       return;
    }
