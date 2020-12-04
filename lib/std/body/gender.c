@@ -10,8 +10,6 @@ string query_gender(void) {
          return "male";
       case "female":
          return "female";
-      case "neuter":
-         return "neuter";
       default:
          return gender;
    }
@@ -24,7 +22,7 @@ string query_gender_pronoun(void) {
       case "female":
          return "she";
       default:
-         return "it";
+         return "they";
    }
 }
 
@@ -35,7 +33,7 @@ string query_gender_determiner(void) {
       case "female":
          return "her";
       default:
-         return "its";
+         return "their";
    }
 }
 
@@ -46,7 +44,7 @@ string query_gender_possessive(void) {
       case "female":
          return "hers";
       default:
-         return "its";
+         return "their";
    }
 }
 
@@ -57,6 +55,6 @@ string query_gender_reflexive(void) {
       case "female":
          return "herself";
       default:
-         return "itself";
+         return "themself";
    }
 }
